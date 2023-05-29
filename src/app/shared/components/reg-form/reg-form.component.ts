@@ -31,8 +31,8 @@ export class RegFormComponent implements OnInit {
   }
 
   onRegUserForm() {
-    let user: any = this.regForm.value;
-    this.userDataService.postUserData(user).subscribe((user) => {
+    let obj: any = this.regForm.value;
+    this.userDataService.postUserData(obj).subscribe((user) => {
       console.log(user);
     });
 

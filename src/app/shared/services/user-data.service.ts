@@ -17,7 +17,7 @@ export class UserDataService {
   }
 
   postUserData(user: any): Observable<any> {
-    return this._http.put<any>(this.userUrl, user);
+    return this._http.post<any>(this.userUrl, user);
   }
 
   getSeatData(): Observable<any> {
