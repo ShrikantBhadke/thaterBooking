@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
+import { Iuser } from '../models/user';
 
 @Injectable({
   providedIn: 'root',
@@ -12,8 +13,8 @@ export class UserDataService {
 
   constructor(private _http: HttpClient) {}
 
-  getUserData(): Observable<any> {
-    return this._http.get<any>(this.userUrl);
+  getUserData(): Observable<Iuser[]> {
+    return this._http.get<Iuser[]>(this.userUrl);
   }
 
   postUserData(user: any): Observable<any> {

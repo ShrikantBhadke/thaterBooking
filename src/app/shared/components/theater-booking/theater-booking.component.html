@@ -15,8 +15,8 @@
 <div class="container my-5">
     <div class="row">
         <div class="col-md-8 offset-2 text-center">
-            <button [ngClass]="seat.isbooked" *ngFor="let seat of seats;let i = index"
-                (click)="selectedseat(seat.id)">{{seat.seat}}</button>
+            <button [ngClass]="seat.isbooked" [disabled]="seat.isbooked == 'yes'"
+                *ngFor="let seat of seats;let i = index" (click)="selectedseat(seat)">{{seat.seat}}</button>
         </div>
     </div>
     <div class="row">

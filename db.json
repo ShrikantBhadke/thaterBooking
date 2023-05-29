@@ -4,61 +4,61 @@
       "id": 1,
       "seat": 1,
       "isbooked": "yes",
-      "bookedBy": "user1"
+      "bookedBy": "user4"
     },
     {
       "id": 2,
       "seat": 2,
       "isbooked": "yes",
-      "bookedBy": "user1"
+      "bookedBy": "user2"
     },
     {
       "id": 3,
       "seat": 3,
-      "isbooked": "no",
-      "bookedBy": "user5"
+      "isbooked": "yes",
+      "bookedBy": "user1"
     },
     {
       "id": 4,
       "seat": 4,
       "isbooked": "yes",
-      "bookedBy": "user5"
+      "bookedBy": "user1"
     },
     {
       "id": 5,
       "seat": 5,
-      "isbooked": "no",
-      "bookedBy": "user1"
+      "isbooked": "yes",
+      "bookedBy": "user3"
     },
     {
       "id": 6,
       "seat": 6,
-      "isbooked": "no",
-      "bookedBy": "user5"
+      "isbooked": "yes",
+      "bookedBy": "user3"
     },
     {
       "id": 7,
       "seat": 7,
       "isbooked": "yes",
-      "bookedBy": "user2"
+      "bookedBy": "user3"
     },
     {
       "id": 8,
       "seat": 8,
-      "isbooked": "no",
-      "bookedBy": "user3"
+      "isbooked": "yes",
+      "bookedBy": "user2"
     },
     {
       "id": 9,
       "seat": 9,
       "isbooked": "yes",
-      "bookedBy": "user5"
+      "bookedBy": "user1"
     },
     {
       "id": 10,
       "seat": 10,
       "isbooked": "yes",
-      "bookedBy": "user2"
+      "bookedBy": "user4"
     }
   ],
   "posts": [
@@ -91,6 +91,18 @@
       "email": "user5",
       "password": "user5",
       "username": "user5"
+    },
+    {
+      "email": "hghjg",
+      "password": "hjgjh",
+      "username": "ghjg",
+      "id": 6
+    },
+    {
+      "email": "bvnbvn",
+      "password": "jhghh",
+      "username": "jhjhkj",
+      "id": 7
     }
   ],
   "comments": [

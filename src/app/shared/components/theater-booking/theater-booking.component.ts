@@ -16,6 +16,7 @@ export class TheaterBookingComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    // this.count = 0;
     this.getAllSeats();
   }
 
@@ -24,31 +25,38 @@ export class TheaterBookingComponent implements OnInit {
   }
 
   seatSelected(i: any, eve: any) {
-    eve.target.addClass('deactive');
+    this.count = eve.target.addClass('deactive');
   }
 
   getAllSeats() {
     this.userDataService.getSeatData().subscribe((data) => {
       console.log(data);
       this.seats = data;
+      // data.forEach((ele: any) => {
+      //   ele.isbooked = 'no';
+      // });
+
       let usercount = data.filter(
         (user: any) => user.bookedBy == localStorage.getItem('email')
       );
       this.count = usercount.length;
+      console.log(usercount);
     });
   }
 
-  selectedseat(id: any) {
-    console.log(id);
-    let obj = {
-      isbooked: 'yes',
-      id: id,
-      seat: parseInt(id),
-      bookedBy: localStorage.getItem('email'),
-    };
-    this.userDataService.changeSeatState(id, obj).subscribe((res) => {
-      console.log(res);
-      this.getAllSeats();
-    });
+  selectedseat(seat: any) {
+    console.log(seat);
+    if (seat.isbooked == 'no') {
+      let obj = {
+        isbooked: 'yes',
+        id: seat.id,
+        seat: parseInt(seat.id),
+        bookedBy: 'no' ? localStorage.getItem('email') : 'no',
+      };
+      this.userDataService.changeSeatState(seat.id, obj).subscribe((res) => {
+        console.log(res);
+        this.getAllSeats();
+      });
+    }
   }
 }
