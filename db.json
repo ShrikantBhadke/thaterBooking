@@ -1,0 +1,102 @@
+{
+  "seats": [
+    {
+      "id": 1,
+      "seat": 1,
+      "isbooked": "yes",
+      "bookedBy": "user5"
+    },
+    {
+      "id": 2,
+      "seat": 2,
+      "isbooked": "no"
+    },
+    {
+      "id": 3,
+      "seat": 3,
+      "isbooked": "yes",
+      "bookedBy": "user1"
+    },
+    {
+      "id": 4,
+      "seat": 4,
+      "isbooked": "yes",
+      "bookedBy": "user1"
+    },
+    {
+      "id": 5,
+      "seat": 5,
+      "isbooked": "yes",
+      "bookedBy": "user2"
+    },
+    {
+      "id": 6,
+      "seat": 6,
+      "isbooked": "yes",
+      "bookedBy": "user1"
+    },
+    {
+      "id": 7,
+      "seat": "7",
+      "isbooked": "no"
+    },
+    {
+      "id": 8,
+      "seat": "8",
+      "isbooked": "no"
+    },
+    {
+      "id": 9,
+      "seat": 9,
+      "isbooked": "yes",
+      "bookedBy": "user2"
+    },
+    {
+      "id": 10,
+      "seat": "10",
+      "isbooked": "no"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "email": "user1",
+      "password": "user1",
+      "username": "user1"
+    },
+    {
+      "id": 2,
+      "email": "user2",
+      "password": "user2",
+      "username": "user2"
+    },
+    {
+      "id": 3,
+      "email": "user3",
+      "password": "user3",
+      "username": "user3"
+    },
+    {
+      "id": 4,
+      "email": "user4",
+      "password": "user4",
+      "username": "user4"
+    },
+    {
+      "id": 5,
+      "email": "user5",
+      "password": "user5",
+      "username": "user5"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
