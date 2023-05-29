@@ -4,61 +4,61 @@
       "id": 1,
       "seat": 1,
       "isbooked": "no",
-      "bookedBy": "user4"
+      "bookedBy": "no"
     },
     {
       "id": 2,
       "seat": 2,
       "isbooked": "no",
-      "bookedBy": "user2"
+      "bookedBy": "no"
     },
     {
       "id": 3,
       "seat": 3,
       "isbooked": "no",
-      "bookedBy": "user1"
+      "bookedBy": "no"
     },
     {
       "id": 4,
       "seat": 4,
       "isbooked": "no",
-      "bookedBy": "user1"
+      "bookedBy": "no"
     },
     {
       "id": 5,
       "seat": 5,
       "isbooked": "no",
-      "bookedBy": "user3"
+      "bookedBy": "no"
     },
     {
       "id": 6,
       "seat": 6,
       "isbooked": "no",
-      "bookedBy": "user3"
+      "bookedBy": "no"
     },
     {
       "id": 7,
       "seat": 7,
       "isbooked": "no",
-      "bookedBy": "user3"
+      "bookedBy": "no"
     },
     {
       "id": 8,
       "seat": 8,
       "isbooked": "no",
-      "bookedBy": "user2"
+      "bookedBy": "no"
     },
     {
       "id": 9,
       "seat": 9,
       "isbooked": "no",
-      "bookedBy": "user1"
+      "bookedBy": "no"
     },
     {
       "id": 10,
       "seat": 10,
       "isbooked": "no",
-      "bookedBy": "user4"
+      "bookedBy": "no"
     }
   ],
   "posts": [
